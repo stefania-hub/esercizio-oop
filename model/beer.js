@@ -4,5 +4,9 @@ class Beer extends Beverage {
         this.type = type;
         this.color = color;
     }
+
+    toString(){
+
+    }
 }
 
