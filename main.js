@@ -19,6 +19,24 @@ console.log(barolo.toString());
 
 
 
+const moretti = new Beer("moretti ipa", "moretti s.p.a.", 2024, 65, 4, "ipa", "blonde");
+const dolcetto = new Wine("dolcetto bella vita", "cantine bella vita", 2020, 75, 11, "dolcetto", "alba");
+const barolo = new PremiumWine("brunatebarolo", "Francesco Borgogno", 2021, 75, 14, "nebbiolo da barolo", "piemonte", "D.O.C.G");
+
+// imposto i prezzi
+moretti.price = 3;
+dolcetto.price = 9;
+barolo.price = 20;
+
+
+// test della vendita
+moretti.sellBottles(30);
+console.log("Dopo vendita:", moretti.bottleNumber);
+
+moretti.sellBottles(100); // errore
+
+
+
 
 
 

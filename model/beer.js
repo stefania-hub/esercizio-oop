@@ -6,7 +6,7 @@ class Beer extends Beverage {
     }
 
     toString(){
-
+ return `Birra: ${this.name}, Tipo: ${this.type}, Colore: ${this.color}, Produttore: ${this.produttore}, Anno: ${this.yob}, Alcol: ${this.alcohol}°, Bottiglie: ${this.bottleNumber}, Prezzo: ${this.price}€`;
     }
 }
-
+    
